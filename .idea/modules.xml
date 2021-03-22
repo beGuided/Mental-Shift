@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/cms.iml" filepath="$PROJECT_DIR$/.idea/cms.iml" />
+      <module fileurl="file://$USER_HOME$/Desktop/php oop pratice/.idea/php oop pratice.iml" filepath="$USER_HOME$/Desktop/php oop pratice/.idea/php oop pratice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../website/.idea/website.iml" filepath="$PROJECT_DIR$/../website/.idea/website.iml" />
+    </modules>
+  </component>
+</project>
