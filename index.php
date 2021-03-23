@@ -28,13 +28,13 @@
             <!-- Wrapper for slides -->
             <div class="carousel-inner" role="listbox">
                 <div class="item active">
-                    <img src="images/slide1.png" style="width:100%;" alt="...">
+                    <img src="images/slider3.jfif" style="width:100%;" alt="...">
                     <div class="carousel-caption">
                         ...
                     </div>
                 </div>
                 <div class="item">
-                    <img src="images/slide2.png" style="width:100%;" alt="...">
+                    <img src="images/slider1.jfif" style="width:100%;" alt="...">
                     <div class="carousel-caption">
                         ...
                     </div>
