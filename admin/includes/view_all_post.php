@@ -18,24 +18,26 @@ foreach ($_POST['checkBoxesArray'] as $checkBoxeValue) {
 
             <table class="table table-bordered table-hover">
 
-         <div id ="bulkOptionsConainer" class="col-xs-4">
+         <div id ="bulkOptions Conainer" class="col-xs-4">
                     
-<!--           <select class="form-control" name="bulk_options" id="">-->
-<!--               <option value="">Select Option</option>-->
-<!--                         <option value="Published">Publish</option>-->
-<!--                          <option value="draft">Draft</option>-->
-<!--                           <option value="delete">Delete</option>-->
-<!---->
-<!--                    </select>-->
-<!--                </div>-->
-<!--                <div class="col-xs-4">-->
-<!--                <input type="submit" name="submit" class="btn btn-success" value="Apply">-->
-<!--                <a class="btn btn-primary" href="add_post.php">Add New</a>-->
-<!--            </div>-->
+           <select class="form-control" name="bulk_options" id="">
+               <option value="">Select Option</option>
+                         <option value="Published">Publish</option>
+                          <option value="draft">Draft</option>
+                           <option value="delete">Delete</option>
+
+                    </select>
+                </div>
+                <div class="col-xs-4">
+                <input type="submit" name="submit" class="btn btn-success" value="Apply">
+                <a class="btn btn-primary" href="add_post.php">Add New</a>
+            </div>
 
                 <thead>
                     <tr>
-                        <th><input id='selectAll' type="checkbox" name=""></th>
+                        <th></th>
+                        <th></th>
+<!--                        <th><input id='selectAll' type="checkbox" name=""></th>-->
                         <th>Id</th>
                         <th>Author</th>
                         <th>Title</th>

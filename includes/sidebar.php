@@ -2,7 +2,7 @@
 
 
                 <!-- Blog Search Well -->
-                <div class="well">
+                <div class="well bg-dark">
                     <h4>Blog Search</h4>
                     <form action = "./search.php" method="post">
                     <div class="input-group">
@@ -44,7 +44,7 @@
                 <div class="well">
                          <?php 
 
-              $query = 'SELECT * FROM categories LIMIT 3';
+              $query = 'SELECT * FROM categories LIMIT 5';
             $select_categories_query = mysqli_query($connection, $query);
                      ?>
 

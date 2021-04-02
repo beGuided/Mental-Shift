@@ -2,9 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b5b03814-132b-415b-a917-bab1640ca69e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/blog.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/cms.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/cms.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/for blog.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/includes/add_post.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/includes/add_post.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/includes/edit_post.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/includes/edit_post.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/includes/view_all_post.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/includes/view_all_post.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/bug finding.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/image_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/image_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/image_4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/image_5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/includes/navigation.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/navigation.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/includes/sidebar.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/sidebar.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/post.php" beforeDir="false" afterPath="$PROJECT_DIR$/post.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../website/admin/includes/edit_post.php" beforeDir="false" afterPath="$PROJECT_DIR$/../website/admin/includes/edit_post.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../website/includes/subscribe.php" beforeDir="false" afterPath="$PROJECT_DIR$/../website/includes/subscribe.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -35,15 +49,21 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\Mental_shift_blog" />
+      <recent name="C:\xampp\htdocs\oop_project\admin" />
+      <recent name="C:\xampp\htdocs\oop_project\admin\includes" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\oop_project\admin" />
       <recent name="C:\xampp\htdocs\cms" />
     </key>
   </component>
   <component name="RunManager">
-    <configuration name="index.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$USER_HOME$/Desktop/php oop pratice/index.php">
+    <configuration name="index.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" singleton="false" temporary="true" path="$USER_HOME$/Desktop/php oop pratice/index.php">
       <method v="2" />
     </configuration>
     <recent_temporary>
@@ -64,7 +84,8 @@
       <workItem from="1616094681981" duration="2216000" />
       <workItem from="1616149786979" duration="574000" />
       <workItem from="1616216465310" duration="19867000" />
-      <workItem from="1616515464460" duration="3447000" />
+      <workItem from="1616515464460" duration="4050000" />
+      <workItem from="1616577837629" duration="89177000" />
     </task>
     <servers />
   </component>
@@ -72,10 +93,10 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="263" y="18" key="#CLI_Interpreters" timestamp="1616218267804">
+    <state x="263" y="18" key="#CLI_Interpreters" timestamp="1616577959711">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="263" y="18" key="#CLI_Interpreters/0.0.1366.728@0.0.1366.728" timestamp="1616218267804" />
+    <state x="263" y="18" key="#CLI_Interpreters/0.0.1366.728@0.0.1366.728" timestamp="1616577959711" />
     <state x="390" y="6" key="#PHP" timestamp="1616218270547">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -84,10 +105,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="413" y="110" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1616334456004" />
-    <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1616333474414">
+    <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1616659417115">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1616333474414" />
+    <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1616659417115" />
     <state width="1323" height="138" key="GridCell.Tab.0.bottom" timestamp="1616452297616">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -104,21 +125,21 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1323" height="138" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1616452297616" />
-    <state x="517" y="287" key="NewPhpFileDialog" timestamp="1616448318723">
+    <state x="517" y="287" key="NewPhpFileDialog" timestamp="1616945248238">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="517" y="287" key="NewPhpFileDialog/0.0.1366.728@0.0.1366.728" timestamp="1616448318723" />
-    <state x="184" y="9" key="SettingsEditor" timestamp="1616095001153">
+    <state x="517" y="287" key="NewPhpFileDialog/0.0.1366.728@0.0.1366.728" timestamp="1616945248238" />
+    <state x="184" y="9" key="SettingsEditor" timestamp="1616925711287">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="184" y="9" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1616095001153" />
-    <state x="339" y="162" key="run.anything.popup" timestamp="1616449032535">
+    <state x="184" y="9" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1616925711287" />
+    <state x="339" y="162" key="run.anything.popup" timestamp="1617219224474">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="339" y="162" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1616449032535" />
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1616449462210">
+    <state x="339" y="162" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1617219224474" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1617012753271">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1616449462210" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1617012753271" />
   </component>
 </project>

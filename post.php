@@ -36,8 +36,8 @@
                         ?>
 
                         <h1 class="page-header">
-                    Page Heading
-                    <small>Secondary Text</small>
+<!--                    Post Details-->
+                    <small></small>
                 </h1>
 
                 <!-- First Blog Post -->
@@ -56,10 +56,10 @@
                     <hr>
 
 
-              <?php } ?>      
+              <?php } ?>
 
 
-                
+
         
                 <?php 
 

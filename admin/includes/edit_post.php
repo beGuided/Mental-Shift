@@ -76,6 +76,7 @@ $Update_Post = mysqli_query($connection, $query);
          <label for="post_title">Post Title</label>
           <input class="form-control" type="text" name="post_title" value="<?php echo $post_title?> " >
          </div>
+    <label for="post_title">Post category</label><br>
          <select name="post_category" id="post_category">
 <?php 
 
@@ -107,11 +108,14 @@ echo "<option value='{$cat_title}'>{$cat_title}</option>";
           <input value="<?php echo $post_author?> " class="form-control" type="text" name="post_author">
          </div>
 
-          <div class="form-group">
-         <label for="post_status">Post Status</label>
-          <input class="form-control" type="text" name="post_status" value="<?php echo $post_status?> " >
-         </div>
+    <div class="form-group">
+        <label for="post_status">Post Status</label>
+        <select name="post_status">
+            <option value="draft">draft</option>
+            <option value="posted">posted</option>
+        </select>
 
+    </div>
           <div class="form-group">
          <img width=100 src="../images/<?php $post_image?>" alt="images">
          <input type="file" name="Image">

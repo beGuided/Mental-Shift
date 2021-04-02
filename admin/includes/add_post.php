@@ -51,7 +51,7 @@ $query = "SELECT * FROM categories";
 
  if(!$select_categories_id){
         
-    die('failed query'.mysql_error($connection));
+    die('failed query'.mysqli_error($connection));
   };
 
  while ($row = mysqli_fetch_assoc($select_categories_id)) {
@@ -71,7 +71,11 @@ echo "<option value='{$cat_id}'>{$cat_title}</option>";
 
           <div class="form-group">
          <label for="post_status">Post Status</label>
-          <input class="form-control" type="text" name="post_status">
+              <select name="post_status">
+                  <option value="draft">draft</option>
+                  <option value="posted">posted</option>
+              </select>
+
          </div>
 
           <div class="form-group">
