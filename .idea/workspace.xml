@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b5b03814-132b-415b-a917-bab1640ca69e" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/includes/db.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/db.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../website/admin/includes/edit_post.php" beforeDir="false" afterPath="$PROJECT_DIR$/../website/admin/includes/edit_post.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../website/includes/subscribe.php" beforeDir="false" afterPath="$PROJECT_DIR$/../website/includes/subscribe.php" afterDir="false" />
     </list>
@@ -70,7 +72,7 @@
       <workItem from="1616149786979" duration="574000" />
       <workItem from="1616216465310" duration="19867000" />
       <workItem from="1616515464460" duration="4050000" />
-      <workItem from="1616577837629" duration="91841000" />
+      <workItem from="1616577837629" duration="92861000" />
     </task>
     <servers />
   </component>
@@ -122,9 +124,9 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="339" y="162" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1617219224474" />
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1617012753271">
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1617440576968">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1617012753271" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1617440576968" />
   </component>
 </project>

@@ -39,7 +39,7 @@
             <!-- Blog Entries Column -->
             <div class="col-md-8 ">
 
-                <i class="">
+                <div class="">
                     Hello ardent propellers of change. Before you is <b>IDOWU OLUWASANMI a.k.a ALUTA-BOOSTER </b>an aspirant for the office of Vice
                     President of the Degree Students Association{DSA}<br><br>
 
