@@ -70,6 +70,9 @@
                         </ol>
 
                     </div>
+
+                    <div class="text-center ">
+                        <h3> more info loading.....</h3></div>
                 
             </div>
 

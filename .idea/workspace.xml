@@ -2,22 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b5b03814-132b-415b-a917-bab1640ca69e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/blog.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/cms.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/cms.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/includes/add_post.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/includes/add_post.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/includes/edit_post.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/includes/edit_post.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/includes/view_all_post.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/includes/view_all_post.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/bug finding.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/image_1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/image_2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/image_4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/image_5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/includes/navigation.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/navigation.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/includes/sidebar.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/sidebar.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/post.php" beforeDir="false" afterPath="$PROJECT_DIR$/post.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../website/admin/includes/edit_post.php" beforeDir="false" afterPath="$PROJECT_DIR$/../website/admin/includes/edit_post.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../website/includes/subscribe.php" beforeDir="false" afterPath="$PROJECT_DIR$/../website/includes/subscribe.php" afterDir="false" />
     </list>
@@ -85,7 +71,7 @@
       <workItem from="1616149786979" duration="574000" />
       <workItem from="1616216465310" duration="19867000" />
       <workItem from="1616515464460" duration="4050000" />
-      <workItem from="1616577837629" duration="89177000" />
+      <workItem from="1616577837629" duration="91028000" />
     </task>
     <servers />
   </component>
