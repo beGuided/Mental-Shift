@@ -21,7 +21,7 @@ $user_password = $_POST['user_password'];
 
 // move_uploaded_file($post_image_temp, "../images/$post_image");
 
-$query = "INSERT INTO users( user_firstname, user_lastname, user_role, username, user_email,user_password)";  
+$query = "INSERT INTO user( user_firstname, user_lastname, user_role, username, user_email,user_password)";
 
 $query.="VALUES('{$user_firstname}', '{$user_lastname}','{$user_role}','{$username}','{$user_email}','{$user_password}')";
 
@@ -33,7 +33,7 @@ $Create_user_query= mysqli_query($connection, $query);
     ));
 }
 
- echo "User Created" . " " . "<a href='users.php'>view users</a>";
+ echo "User Created" . " " . "<a href='user.php'>view user</a>";
 };
 
 ?>

@@ -105,7 +105,7 @@ echo "<div class='huge'>{$comments_counts}</div>";
 
                         <?php 
 
-$query = "SELECT * FROM users  ";
+$query = "SELECT * FROM user  ";
 $select_all_users = mysqli_query($connection, $query);
 $users_counts = mysqli_num_rows($select_all_users );
 

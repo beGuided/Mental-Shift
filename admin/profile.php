@@ -7,7 +7,7 @@ if (isset($_SESSION['username'])) {
 
    $username= $_SESSION['username'];
 
-   $query ="SELECT * FROM users WHERE username ='{$username}' ";
+   $query ="SELECT * FROM user WHERE username ='{$username}' ";
 
    $select_user_profile_query = mysqli_query($connection, $query);
 
@@ -44,9 +44,9 @@ $user_password = $_POST['user_password'];
 // move_uploaded_file($post_image_temp, "../images/$post_image");
 
 
-// pdate users query from the dadabase
+// pdate user query from the dadabase
 
-$query = "UPDATE users SET ";
+$query = "UPDATE user SET ";
 $query .="user_firstname= '{$user_firstname}', ";
 $query .="user_lastname= '{$user_lastname}', ";
 $query .="user_role= '{$user_role}', ";

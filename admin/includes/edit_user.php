@@ -12,7 +12,7 @@ $the_user_id= $_GET['edit_user'];
 
 
 
- $query = "SELECT * FROM users WHERE user_id= {$the_user_id} ";
+ $query = "SELECT * FROM user WHERE user_id= {$the_user_id} ";
  $select_users_query = mysqli_query($connection, $query);
 
  while ($row = mysqli_fetch_assoc($select_users_query)){
@@ -49,11 +49,11 @@ $user_password = $_POST['user_password'];
 // move_uploaded_file($post_image_temp, "../images/$post_image");
 
 
-// pdate users query from the dadabase
+// pdate user query from the dadabase
 
 
 
-$query = "SELECT randSalt FROM users";
+$query = "SELECT randSalt FROM user";
 $select_reandSalt_query= mysqli_query($connection, $query);
 
 if(!$select_reandSalt_query){
@@ -63,7 +63,7 @@ $row = mysqli_fetch_assoc($select_reandSalt_query);
     $randSalt = $row['randSalt'];
     $hashed_password = crypt($user_password, $randSalt);
 
-$query = "UPDATE users SET ";
+$query = "UPDATE user SET ";
 $query .="user_firstname= '{$user_firstname}', ";
 $query .="user_lastname= '{$user_lastname}', ";
 $query .="user_role= '{$user_role}', ";
@@ -148,7 +148,7 @@ $Update_user = mysqli_query($connection, $query);
          <select name="user_role" id="user_role">
 <?php 
 
-$query = "SELECT * FROM users";
+$query = "SELECT * FROM user";
  $select_user_role = mysqli_query($connection, $query);
 
  if(!$select_user_role){
