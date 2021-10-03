@@ -105,7 +105,7 @@ INSERT INTO `posts` (`post_id`, `post_category_id`, `post_title`, `post_author`,
 -- --------------------------------------------------------
 
 --
--- Table structure for table `users`
+-- Table structure for table `user`
 --
 
 CREATE TABLE `users` (
@@ -121,7 +121,7 @@ CREATE TABLE `users` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 --
--- Dumping data for table `users`
+-- Dumping data for table `user`
 --
 
 INSERT INTO `users` (`user_id`, `username`, `user_password`, `user_firstname`, `user_lastname`, `user_email`, `user_image`, `user_role`, `randSalt`) VALUES
@@ -153,7 +153,7 @@ ALTER TABLE `posts`
   ADD PRIMARY KEY (`post_id`);
 
 --
--- Indexes for table `users`
+-- Indexes for table `user`
 --
 ALTER TABLE `users`
   ADD PRIMARY KEY (`user_id`);
@@ -181,7 +181,7 @@ ALTER TABLE `posts`
   MODIFY `post_id` int(3) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=8;
 
 --
--- AUTO_INCREMENT for table `users`
+-- AUTO_INCREMENT for table `user`
 --
 ALTER TABLE `users`
   MODIFY `user_id` int(3) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=14;

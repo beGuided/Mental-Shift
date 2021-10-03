@@ -1,10 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="b5b03814-132b-415b-a917-bab1640ca69e" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/cms.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/cms.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/functions.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/includes/add_user.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/includes/add_user.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/includes/edit_user.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/includes/edit_user.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/includes/view_all_users.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/includes/view_all_users.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/profile.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/profile.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/cms(1).sql" beforeDir="false" afterPath="$PROJECT_DIR$/database/cms(1).sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/includes/db.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/db.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/includes/login.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/login.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/registration.php" beforeDir="false" afterPath="$PROJECT_DIR$/registration.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../website/admin/includes/edit_post.php" beforeDir="false" afterPath="$PROJECT_DIR$/../website/admin/includes/edit_post.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../website/includes/subscribe.php" beforeDir="false" afterPath="$PROJECT_DIR$/../website/includes/subscribe.php" afterDir="false" />
     </list>
@@ -13,8 +28,16 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings">
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="composer.json" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -34,17 +57,18 @@
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../mvc_blog" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\xampp\htdocs\Mental_shift_blog" />
       <recent name="C:\xampp\htdocs\oop_project\admin" />
       <recent name="C:\xampp\htdocs\oop_project\admin\includes" />
+      <recent name="C:\xampp\htdocs\Mental_shift_blog" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\mvc_framework\app" />
       <recent name="C:\xampp\htdocs\oop_project\admin" />
       <recent name="C:\xampp\htdocs\cms" />
     </key>
@@ -72,7 +96,26 @@
       <workItem from="1616149786979" duration="574000" />
       <workItem from="1616216465310" duration="19867000" />
       <workItem from="1616515464460" duration="4050000" />
-      <workItem from="1616577837629" duration="92861000" />
+      <workItem from="1616577837629" duration="109964000" />
+      <workItem from="1617896514818" duration="6954000" />
+      <workItem from="1619190470443" duration="1716000" />
+      <workItem from="1619192224480" duration="1787000" />
+      <workItem from="1619194044644" duration="1804000" />
+      <workItem from="1630078061048" duration="1674000" />
+      <workItem from="1630079797994" duration="1794000" />
+      <workItem from="1630081619229" duration="1932000" />
+      <workItem from="1630083587994" duration="1835000" />
+      <workItem from="1630085447849" duration="1772000" />
+      <workItem from="1630116072915" duration="1747000" />
+      <workItem from="1630117864487" duration="1786000" />
+      <workItem from="1630119682667" duration="1640000" />
+      <workItem from="1630121504471" duration="1787000" />
+      <workItem from="1630123327414" duration="1787000" />
+      <workItem from="1630125142122" duration="1573000" />
+      <workItem from="1630147534284" duration="1801000" />
+      <workItem from="1630149725652" duration="1789000" />
+      <workItem from="1630151882390" duration="1786000" />
+      <workItem from="1630191116299" duration="119000" />
     </task>
     <servers />
   </component>
@@ -80,53 +123,33 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="263" y="18" key="#CLI_Interpreters" timestamp="1616577959711">
+    <state x="115" y="165" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1630117483168">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="263" y="18" key="#CLI_Interpreters/0.0.1366.728@0.0.1366.728" timestamp="1616577959711" />
-    <state x="390" y="6" key="#PHP" timestamp="1616218270547">
+    <state x="115" y="165" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1630117483168" />
+    <state x="197" y="175" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1630084256994">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="390" y="6" key="#PHP/0.0.1366.728@0.0.1366.728" timestamp="1616218270547" />
-    <state x="413" y="110" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1616334456004">
+    <state x="197" y="175" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1366.728@0.0.1366.728" timestamp="1630084256994" />
+    <state x="121" y="118" key="FileChooserDialogImpl" timestamp="1630191238620">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="413" y="110" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1616334456004" />
-    <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1616659417115">
+    <state x="121" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1630191238620" />
+    <state x="126" y="86" key="NewPhpClassDialog" timestamp="1630149138717">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1616659417115" />
-    <state width="1323" height="138" key="GridCell.Tab.0.bottom" timestamp="1616452297616">
+    <state x="126" y="86" key="NewPhpClassDialog/0.0.1366.728@0.0.1366.728" timestamp="1630149138717" />
+    <state x="176" y="287" key="NewPhpFileDialog" timestamp="1630148586527">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="138" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1616452297616" />
-    <state width="1323" height="138" key="GridCell.Tab.0.center" timestamp="1616452297616">
+    <state x="176" y="287" key="NewPhpFileDialog/0.0.1366.728@0.0.1366.728" timestamp="1630148586527" />
+    <state x="184" y="8" key="SettingsEditor" timestamp="1630122891306">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="138" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1616452297616" />
-    <state width="1323" height="138" key="GridCell.Tab.0.left" timestamp="1616452297616">
+    <state x="184" y="8" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1630122891306" />
+    <state x="12" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1630148650502">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="138" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1616452297616" />
-    <state width="1323" height="138" key="GridCell.Tab.0.right" timestamp="1616452297616">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="1323" height="138" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1616452297616" />
-    <state x="517" y="287" key="NewPhpFileDialog" timestamp="1616945248238">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="517" y="287" key="NewPhpFileDialog/0.0.1366.728@0.0.1366.728" timestamp="1616945248238" />
-    <state x="184" y="9" key="SettingsEditor" timestamp="1616925711287">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="184" y="9" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1616925711287" />
-    <state x="339" y="162" key="run.anything.popup" timestamp="1617219224474">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="339" y="162" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1617219224474" />
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1617440576968">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1617440576968" />
+    <state x="12" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1630148650502" />
   </component>
 </project>

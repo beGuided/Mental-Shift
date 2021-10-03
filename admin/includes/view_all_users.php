@@ -16,7 +16,7 @@
                  <tbody>
                     <?php 
 
- $query = 'SELECT * FROM users ';
+ $query = 'SELECT * FROM user ';
  $select_users = mysqli_query($connection, $query);
 
  while ($row = mysqli_fetch_assoc($select_users)){
@@ -60,10 +60,10 @@ echo"<td>$user_role</td>";
 // }
 
 
-echo"<td><a href='users.php?change_to_admin={$user_id}'>Admin</a></td>";
-echo"<td><a href='users.php?change_to_sub={$user_id}'>Subscriber</a></td>";
-echo"<td><a href='users.php?source=edit_user&edit_user={$user_id};'>Edit</a></td>";
-echo"<td><a href='users.php?delete={$user_id};'>Delete</a></td>";
+echo"<td><a href='user.php?change_to_admin={$user_id}'>Admin</a></td>";
+echo"<td><a href='user.php?change_to_sub={$user_id}'>Subscriber</a></td>";
+echo"<td><a href='user.php?source=edit_user&edit_user={$user_id};'>Edit</a></td>";
+echo"<td><a href='user.php?delete={$user_id};'>Delete</a></td>";
 echo"</tr>";
 
 
@@ -80,20 +80,20 @@ if (isset($_GET['change_to_admin'])) {
      
 $the_user_id = $_GET['change_to_admin'];
 
-$query="UPDATE users SET  user_role = 'Admin' WHERE user_id = {$the_user_id} ";   
+$query="UPDATE user SET  user_role = 'Admin' WHERE user_id = {$the_user_id} ";
 
     $update_user_role= mysqli_query($connection,$query );
-    header("Location: users.php ");
+    header("Location: user.php ");
 
 }
 
 if (isset($_GET['change_to_sub'])) {
     
 $the_user_id = $_GET['change_to_sub'];
-$query="UPDATE users SET  user_role = 'Subscriber' WHERE user_id = {$the_user_id} ";   
+$query="UPDATE user SET  user_role = 'Subscriber' WHERE user_id = {$the_user_id} ";
 
     $update_user_role= mysqli_query($connection,$query );
-    header("Location: users.php ");
+    header("Location: user.php ");
 }
 
 
@@ -103,10 +103,10 @@ if (isset($_GET['delete'])) {
     
 $the_user_id = $_GET['delete'];
 
-$query="DELETE FROM users WHERE user_id = {$the_user_id}";   
+$query="DELETE FROM user WHERE user_id = {$the_user_id}";
 
     $delete_user_query= mysqli_query($connection,$query );
-    header("Location: users.php ");
+    header("Location: user.php ");
 
 
 

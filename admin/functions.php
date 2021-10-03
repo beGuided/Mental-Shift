@@ -67,7 +67,7 @@ function deleteCategories(){
 
 function is_admin($username= ''){
     global $connection;
-    $query = "SELECT user_role FROM users WHERE usernme = '$username'";
+    $query = "SELECT user_role FROM user WHERE usernme = '$username'";
     $result=mysqli_query($connection, $query);
     confirmQuery($result);
 
