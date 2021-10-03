@@ -1,6 +1,6 @@
 
 <?php
-ob_start();
+// ob_start();
 
 //$db['db_host'] = 'localhost';
 //$db['db_user'] = 'root';
